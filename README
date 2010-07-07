@@ -1,0 +1,10 @@
+A short bash script that allows you to easily build and install software packages (.tar.gz).
+
+QUICK START:
+
+1.) If you're not using virtualenvwrapper, set VIRTUAL_ENV environment variable to your absolute virtual environment path. If you are using virtualenvwrapper, just "workon" the virtual env. you wish to install the packages in.
+2.) Add to, or remove from nonpip_packages and pip_packages arrays in SETTINGS section of deploy_pysite.sh source code. Use the formats specified in comments.
+
+3.) (Optional) The default directory where software is downloaded and built is "$HOME/downloads". This is set in "dg_downloads_dir" in deploy_pysite.sh SETTINGS section. Feel free to modify it.
+
+4.) Execute the script.
