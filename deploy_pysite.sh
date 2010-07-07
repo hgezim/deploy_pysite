@@ -68,11 +68,11 @@ dg_downloads_dir="$HOME/downloads"
 #
 # MAKE SURE YOU USE QUOTES.
 #
-nonpip_packages=(\
-    "http://oligarchy.co.uk/xapian/1.0.21/xapian-core-1.0.21.tar.gz" \
-        "" \
-    "http://oligarchy.co.uk/xapian/1.0.21/xapian-bindings-1.0.21.tar.gz" \
-        "function_xapian_bindings" \
+nonpip_packages=(
+    "http://oligarchy.co.uk/xapian/1.0.21/xapian-core-1.0.21.tar.gz"
+        ""
+    "http://oligarchy.co.uk/xapian/1.0.21/xapian-bindings-1.0.21.tar.gz"
+        "function_xapian_bindings"
     )
 
 # Add/remove pip packages you [don't] want to install here.
@@ -83,11 +83,11 @@ nonpip_packages=(\
 #
 # MAKE SURE YOU USE QUOTES.
 #
-pip_packages=(\
-    "django" "1.2.1" \
-    "django-haystack" "1.0.1-final" \
-    "xapian-haystack" "1.1.3beta" \
-    "MySQL-python" "1.2.3c1" \
+pip_packages=(
+    "django" "1.2.1"
+    "django-haystack" "1.0.1-final"
+    "xapian-haystack" "1.1.3beta"
+    "MySQL-python" "1.2.3c1"
     )
 
 # =================================================
