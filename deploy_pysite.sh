@@ -26,15 +26,15 @@ set -e
 # = pip
 # =================================================
 
-usage="\
-USAGE: \n\
-Modify nonpip_packages and pip_packages according to your needs. These can be found in the source\
-of this script in SETTINGS section.\n\
-Once SETTINGS have been modified, activate your virtual environment, then call this script. \n\
-If you're not using virtualenvwrapper, set VIRTUAL_ENV environment variable \
-to your virtual environemt directory. \n\
-\n\
-Also, you may want to ensure that the download dir is set to where you want it in SETTINGS section.\
+usage="
+USAGE: \n
+Modify nonpip_packages and pip_packages according to your needs. These can be found in the source
+of this script in SETTINGS section.\n
+Once SETTINGS have been modified, activate your virtual environment, then call this script. \n
+If you're not using virtualenvwrapper, set VIRTUAL_ENV environment variable 
+to your virtual environemt directory. \n
+\n
+Also, you may want to ensure that the download dir is set to where you want it in SETTINGS section.
 "
 
 # ensure we're in a virtual environment
